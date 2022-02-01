@@ -34,15 +34,15 @@ while True:
         
         if choice == '1':
             print("\n")
-            print("You drank a total of", round(amt, 2), "servings of", round(abv, 2), "% beer, at", round(ml, 2), "per serving;\nYou drank a total of", round(unt, 2), "units of alcohol.\nYou drank a total of", ml * amt, "ml of this beverage.\nYou spent a total of", prc * amt, "on this beverage.")
+            print("You drank a total of", round(amt, 2), "servings of", round(abv, 2), "% beer, at", round(ml, 2), "ml per serving;\nYou drank a total of", round(unt, 2), "units of alcohol.\nYou drank a total of", ml * amt, "ml of this beverage.\nYou spent a total of", prc * amt, "on this beverage.")
 
         elif choice == '2':
             print("\n")
-            print("You drank a total of", round(amt, 2), "servings of", round(abv, 2), "% wine, at", round(ml, 2), "per serving;\nYou drank a total of", round(unt, 2), "units of alcohol.\nYou drank a total of", ml * amt, "ml of this beverage.\nYou spent a total of", prc * amt, "on this beverage.")
+            print("You drank a total of", round(amt, 2), "servings of", round(abv, 2), "% wine, at", round(ml, 2), "ml per serving;\nYou drank a total of", round(unt, 2), "units of alcohol.\nYou drank a total of", ml * amt, "ml of this beverage.\nYou spent a total of", prc * amt, "on this beverage.")
 
         elif choice == '3':
             print("\n")
-            print("You drank a total of", round(amt, 2), "servings of", round(abv, 2), "% liquor, at", round(ml, 2), "per serving;\nYou drank a total of", round(unt, 2), "units of alcohol.\nYou drank a total of", ml * amt, "ml of this beverage.\nYou spent a total of", prc * amt, "on this beverage.")
+            print("You drank a total of", round(amt, 2), "servings of", round(abv, 2), "% liquor, at", round(ml, 2), "ml per serving;\nYou drank a total of", round(unt, 2), "units of alcohol.\nYou drank a total of", ml * amt, "ml of this beverage.\nYou spent a total of", prc * amt, "on this beverage.")
 
     else:
         print("Invalid Input")
