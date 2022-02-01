@@ -10,7 +10,9 @@ class About_last_night:
 
 print("ABOUT LAST NIGHT... (v0.01)")
 print("\n")
-print("*** DISCLAIMER - this application can only provide you with approximations, and should not be taken as medical guidance.\nPlease consult your GP for more information about alcohol consumption. ***")
+print("*** DISCLAIMER - this application can only provide you with approximations, and should not be taken as medical guidance ***")
+print("\n")
+print("Please consult your GP for more information about alcohol consumption.")
 print("\n")
 
 while True:
@@ -30,7 +32,7 @@ while True:
         ml = float(input("\nHow many millilitres per serving? "))
         abv = float(input("\nWhat was the Alcohol percentage on the label? "))
         prc = float(input("\nHow much did this beverage cost per serving? "))
-        unt = abv * ml / 1000 * amt
+        unt = abv * ml / float(1000) * amt
         
         if choice == '1':
             print("\n")
@@ -55,7 +57,3 @@ while True:
 
     elif next_calculation == "no":
         break
-
-    else:
-        print("Invalid Input")
-        continue
