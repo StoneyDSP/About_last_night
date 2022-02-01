@@ -48,15 +48,14 @@ while True:
         print("Invalid Input")
         continue
 
-        next_calculation = input("\nDo you want to calculate another drink? (yes/no): ")
+    next_calculation = input("\nDo you want to calculate another drink? (yes/no): ")
 
-        if next_calculation != "yes" or "no":
-            print("Invalid Input")
-            input("\nDo you want to calculate another drink? (yes/no): ")
+    if next_calculation == "yes":
+        continue
 
-        elif next_calculation == "yes":
-            continue
+    elif next_calculation == "no":
+        break
 
-        elif next_calculation == "no":
-            break
-        
+    else:
+        print("Invalid Input")
+        continue
