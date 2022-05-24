@@ -5,6 +5,12 @@
               jucerFormatVersion="1" companyName="StoneyDSP">
   <MAINGROUP id="qfcKgq" name="About Last Night">
     <GROUP id="{55AABF71-8265-B074-927A-AA4A4AA69493}" name="Source">
+      <FILE id="aZwsBk" name="Calculator.cpp" compile="1" resource="0" file="Source/Calculator.cpp"/>
+      <FILE id="LemVXq" name="Calculator.h" compile="0" resource="0" file="Source/Calculator.h"/>
+      <FILE id="zoIJsW" name="Liquor.cpp" compile="1" resource="0" file="Source/Liquor.cpp"/>
+      <FILE id="nhgrjf" name="Liquor.h" compile="0" resource="0" file="Source/Liquor.h"/>
+      <FILE id="MOOags" name="Wine.cpp" compile="1" resource="0" file="Source/Wine.cpp"/>
+      <FILE id="JizLLy" name="Wine.h" compile="0" resource="0" file="Source/Wine.h"/>
       <FILE id="Mv1FzV" name="Beverage.cpp" compile="1" resource="0" file="Source/Beverage.cpp"/>
       <FILE id="HWuCYO" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
       <FILE id="qi8DfT" name="Beverage.h" compile="0" resource="0" file="Source/Beverage.h"/>
